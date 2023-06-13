@@ -28,6 +28,7 @@ function mostrarVideo() {
       },
       events: {
         onReady: function(event) {
+          event.target.mute();
           event.target.playVideo(); // Reproduzir o vídeo automaticamente
         }
       }
