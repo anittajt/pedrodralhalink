@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <title>VAZADO</title>
+  <style>
+    body {
+      background-image: url("funkrave.jpg");
+      background-size: cover;
+      background-position: center;
+      font-family: 'Bebas Neue', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    main {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    h1 {
+      font-size: 5rem;
+      padding-bottom: 0rem;
+      color: #fffb00; /* Altere a cor do título, se desejar */
+      text-align: center;
+      margin-bottom: 10px; /* Ajuste a margem inferior conforme necessário */
+    }
+
+    p {
+      font-size: 2rem;
+      color: #fafafa; /* Altere a cor do título, se desejar */
+      text-align: center;/* Ajuste a margem inferior conforme necessário */
+    }
+
+    .botao {
+      text-align: center;
+    }
+
+    .botao button {
+      background-color: #cac709;
+      font-size: 1.375rem;;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      padding: 1rem 2rem;
+      transition: all 0.2s;
+      margin-top: 20px; /* Ajuste a margem superior conforme necessário */
+    }
+
+    .botao button:hover {
+      background-color: #d6da1e;
+    }
+
+    .video-container {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>JÁ FEZ O PRÉ-SAVE DE FUNK RAVE?</h1>
+    <p>distribua esse link para fazer com que mais pessoas façam o pré-save</p>
+    <div class="botao">
+      <a href="https://link.fans/anitta-presave"><button>FAÇA AGORA</button></a>
+    </div>
+    <div class="video-container">
+        <div id="player"></div>
+    </div>
+  </main>
+  <script src="https://www.youtube.com/player_api"></script>
+  <script src="script.js"></script>
+</body>
+</html>
