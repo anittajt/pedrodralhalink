@@ -24,6 +24,7 @@ function mostrarVideo() {
         modestbranding: 1,
         fs: 0,
         mute: 1,
+        playsinline=1
       },
       events: {
         onReady: function(event) {
